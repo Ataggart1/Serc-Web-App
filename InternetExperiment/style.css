@@ -1,11 +1,11 @@
 * {
-    box-sizing: border-box
+    box-decoration-break: inherit;
   }
   
   html {
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: 'Dosis', sans-serif;
+    -moz-osx-font-smoothing: -webkit-font-smoothing
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
     color: #666;
     background: #F6F6F6;

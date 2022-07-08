@@ -10,7 +10,7 @@ app.appendChild(logo);
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://ghibliapi.herokuapp.com/films', true);
+request.open('GET', 'https://icy-plant-007ad6003.1.azurestaticapps.net', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
